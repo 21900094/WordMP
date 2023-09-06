@@ -31,7 +31,8 @@ public class WordManager {
         while(true) {
             int menu=selectMenu();
             if(menu==0) {
-
+                System.out.println("프로그램 종료! 다음에 만나요~");
+                break;
             }
             else if(menu==4) {
                 //create
