@@ -86,7 +86,6 @@ public class WordCRUD implements ICRUD{
             j++;
         }
         System.out.println("--------------------");
-        return idlist;
     }
 
     public void updateItem(){
